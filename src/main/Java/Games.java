@@ -13,16 +13,11 @@ public class Games {
             System.out.println("Ваша задача угадать число");
             int rang = 10;
             int one = 3;
-
             level(rang,one);
 
         } else {
-            /*String[] word= {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry",
-                    "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut",
-                    "pear", "pepper", "pineapple", "pumpkin", "potato"};*/
             System.out.println("Ваша задача угадать слово: ");
             guessFruit();
-
         }
 
     }
